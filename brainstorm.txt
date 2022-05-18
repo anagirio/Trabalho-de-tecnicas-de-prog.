@@ -1,0 +1,74 @@
+Jogo para tecprog.
+Rodrigo e Ana.
+
+jogo plataforma no estilo mario bros.
+
+sessões:
+personagem.
+inimigos.
+cenário.
+física.
+
+personagem:
+mario.
+Atributos
+{
+    básicos:
+        anda para os lados.
+        pula.
+        uma vida.
+    avançados:
+        acelera baseado no tempo que o botão é pressionado.
+        pula mais alto baseado no tempo que o botão é pressionado.
+    futuros:
+        power ups?
+        mais de uma vida?
+}
+inimigos:
+gomba.
+Atributos
+{
+    básicos:
+        anda automaticamente.
+        uma vida.
+}
+
+koopa.
+Atributos
+{
+    básicos:
+        anda automaticamente.
+        uma vida.
+    avançados:
+        duas vidas, sendo a segunda recolhido dentro do casco ficando parado.
+        regenera a primeira vida após x segundos no casco.
+    futuros:
+        casco ser lançado pelo jogador?
+}
+
+cenário:
+Atributos:
+{
+    básicos:
+        chão.
+    avançados:
+        obstáculos.
+    futuros:
+        subfase(cano)?
+}
+
+física:
+Atributos:
+{
+    básicos:
+        gravidade.
+        colisão:
+        entre inimigos:
+            inversão do movimento.
+        entre adversários:
+            combate.
+    avançados:
+        combate:
+            jogador encostar por cima->inimigo perde vida.
+            jogador encostar pelo lado->jogador perde vida.
+}
