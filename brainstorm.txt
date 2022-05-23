@@ -51,6 +51,7 @@ Atributos:
 {
     básicos:
         chão.
+        chão com abismos em que o jogador tem que saltar no tempo correto.
     avançados:
         obstáculos.
     futuros:
@@ -71,4 +72,14 @@ Atributos:
         combate:
             jogador encostar por cima->inimigo perde vida.
             jogador encostar pelo lado->jogador perde vida.
+            jogador caindo na hora de saltar de um chão para o outro -> jogador perde vida.
+}
+
+Chefão
+Atributos:
+{
+    básicos:
+      mais vida.
+      em tamanho, maior que o personagem.
+      presente no fim da fase.
 }
